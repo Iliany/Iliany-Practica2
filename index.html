@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Genedaror de RFC y API</title>
+</head>
+
+<body>
+    <div class="fondo">
+        <h1><span class="titulo">PRÁCTICA2-<span class="titulo">RFC</span></h1>
+    </div>
+    <div class="fondo_cafe">
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="apellido-pat">Apellido paterno:</label>
+            <input type="text" id="apellido-pat" required>
+
+            <label for="apellido-mat">Apellido materno:</label>
+            <input type="text" id="apellido-mat" required>
+
+            <label for="fecha-nac">Fecha de nacimiento:</label>
+            <input type="date" id="fecha-nac" required>
+
+            <input type="button" value="Generar RFC" class="btnGenerar" id="btn-Generar">
+            <label id="rfc">RFC:</label>
+         
+        </form>
+    </div>
+    <div class="fondo">
+        <h1><span class="titulo">AJAX-<span class="titulo">API REST</span></a></h1>
+    </div>
+    <div class="fondo_cafe">
+        <form>
+            <button type="button" onclick="consultarAPI()">Consultar API REST</button>
+
+            <label for="nombreAPI">Nombre:</label>
+            <input type="text" id="nombreAPI" readonly>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" readonly>
+        </form>
+
+
+    </div>
+
+    
+
+    <script src="jquery-3.7.1.js"></script>
+    <script src="datosRFCJquery.js"></script>
+    <script src="datosAPI.js"></script>
+
+
+</body>
+
+</html>

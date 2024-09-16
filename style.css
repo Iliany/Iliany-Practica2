@@ -1,0 +1,44 @@
+
+
+
+.titulo {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: #7a5228;
+}
+
+
+.fondo {
+    display: flex;
+    gap: 20px; 
+    padding: 20px;
+    border: 2px solid #dfffd0;
+    background-color: #dfffd0;
+    border-radius: 15px;
+}
+
+
+.fondo_cafe {
+    flex: 1; 
+    padding: 20px;
+    border: 1px solid #fcb86f;
+    border-radius: 8px;
+    background-color: #f0ba8e;
+}
+
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #7a5228;
+}
+
+/* Estilo para los campos de entrada dentro de los formularios */
+input {
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
